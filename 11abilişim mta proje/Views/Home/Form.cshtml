@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Deneme";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Form</h1>
+    <form action="/Home/FormPost" method="post" enctype="">
+    Sayı 1: <input type="text" name="s1">
+    <br>
+    Sayı 2: <input type="text" name="s2">
+    <br>
+    Resim
+    <input type="file" name="Resim" class="fotm-control"></input>
+    <br>
+    Resim 2
+    <input type="file" name="Resim2" class="form-control"></input>
+    <br>
+    <input type="submit" value="Topla">
+    </form>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\11abilişim mta proje.props" />
+</Project>
